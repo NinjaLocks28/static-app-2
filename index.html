@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    
+    <title>App Building</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">NinjaLocks </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#introduction">Introduction</a></li>
+                            <li><a class="dropdown-item" href="#featured">Featured</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categories
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#categories">Categories</a></li>
+                            <li><a class="dropdown-item" href="#resources">Resources</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#mission">Mission</a></li>
+                            <li><a class="dropdown-item" href="#contact">Contact</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+
+        <!-- Home Section -->
+        <div id="home">
+
+            <!-- Introduction -->
+            <div id="introduction">
+                <div class="container px-4 pt-5 mt-5 text-center border-bottom">
+                    <div class="col-lg-8 col-md-10 col-12 mx-auto">
+                        <h1 class="display-4 fw-bold text-center text-body-emphasis">Master Coding, DevOps, and IT Certifications – All in One Place</h1>
+                    </div>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">Accelerate your tech career with hands-on coding challenges, real-world DevOps labs, and expert-led certification prep for AWS, Azure, and more. Start learning today and unlock your potential!</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3"><a href="#featured" class="text-white text-decoration-none">Start Learning Now</a></button>
+                    </div>
+                </div>
+                    <div class="overflow-hidden" style="max-height: 30vh;">
+                        <div class="container px-5">
+                        <img src="/assets/hero-img.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+                    </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- Featured -->
+            <div id="featured" class="border-bottom bg-body-tertiary">
+                <div class="album py-5">
+                    <div class="container">
+                        <h2 class="display-5 fw-bold text-center pt-5">Features</h2>
+                        <h5 class="text-center mb-5">Why Choose Us? Your Path to IT Mastery Starts Here</h5>
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 pb-5">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="card shadow-sm">
+                                    <img src="./assets/ft-1.jpg" alt="">
+                                    <div class="card-body">
+                                        <h5 class="fw-bold">Hands-On Coding Practice</h5>
+                                        <p class="card-text">Build your coding expertise with interactive challenges, real-time editors, and guided projects. Learn Python, JavaScript, and more by solving real-world problems.</p>
+                                        <div class="d-flex justify-content-between align-items-center">   
+                                            <button type="button" class="btn btn-primary btn-sm "><a href="https://www.freecodecamp.org/" class="text-white text-decoration-none" target="_blank">View More</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="card shadow-sm">
+                                    <img src="./assets/ft-2.jpg" alt="">
+                                    <div class="card-body">
+                                        <h5 class="fw-bold">Real-World DevOps Labs</h5>
+                                        <p class="card-text">Gain practical experience with Docker, Kubernetes, and CI/CD pipelines. Experiment with cloud deployments in AWS, Azure, and Google Cloud sandboxes.</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                        <button type="button" class="btn btn-primary btn-sm "><a href="https://aws.amazon.com/training/digital/" class="text-white text-decoration-none" target="_blank">View More</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-sm-12">
+                                <div class="card shadow-sm">
+                                    <img src="./assets/ft-3.jpg" alt="">
+                                    <div class="card-body">
+                                        <h5 class="fw-bold">Comprehensive Certification Prep</h5>
+                                        <p class="card-text">Prepare for top IT certifications like AWS Certified Solutions Architect, CompTIA Security+, and more with mock exams, expert tips, and curated study paths.</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <button type="button" class="btn btn-primary btn-sm "><a href="https://www.pluralsight.com/" class="text-white text-decoration-none" target="_blank">View More</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>              
+            </div>       
+        </div>
+        <!-- Home Section -->
+
+
+        <!-- Categories Section -->
+        <div id="categories-section" >
+            <div  id="categories" class="border-bottom">
+                <div class="container my-5" id="icon-grid">
+                    <h2 class="pb-2 display-5 fw-bold text-center mb-5 pt-5">Categories</h2>
+                    <!-- <div class="row row-cols-1 row-cols-lg-4 g-4">
+                        <div class="col">
+                            <div class="card card-cover overflow-hidden  rounded-4 shadow-lg">
+                                <div class="d-flex flex-column p-5 pb-3  text-shadow-1">
+                                    <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Category 1</h4>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col">
+                            <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                                <div class="d-flex flex-column  p-5 pb-3 text-white text-shadow-1">
+                                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Category 2</h3>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col">
+                            <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                                <div class="d-flex flex-column  p-5 pb-3 text-white text-shadow-1">
+                                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Category 2</h3>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col">
+                            <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                                <div class="d-flex flex-column  p-5 pb-3 text-white text-shadow-1">
+                                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Category 2</h3>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                    </div> -->
+                    <div class="container pb-5">
+                        
+                        <div class="row g-4  row-cols-1 row-cols-lg-4">
+                            <div class="col-lg-3 col-md-6 col-12 d-flex align-items-start">
+                                <div class="border rounded-4 p-4 shadow-sm">
+                                    <a href="https://www.freecodecamp.org/">
+
+                                        <h3 class="fs-2 text-body-emphasis">Coding and Programming</h3>
+                                        <p>Learn programming fundamentals, web, and software development through hands-on coding projects.</p>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 d-flex align-items-start">
+                                <div class="border rounded-4 p-4 shadow-sm">
+                                    <a href="https://aws.amazon.com/training/">
+                                    <h3 class="fs-2 text-body-emphasis">Cloud Computing</h3>
+                                    <p>Master cloud platforms like AWS, Azure, and GCP with real-world deployment scenarios.</p>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 d-flex align-items-start">
+                                <div class="border rounded-4 p-4 shadow-sm">
+                                    <a href="https://www.udemy.com/course/learn-devops-infrastructure-automation-with-terraform/?audience=Keyword&campaigntype=Search&gad_source=1&gclid=CjwKCAiA9vS6BhA9EiwAJpnXw8Iu0cpRX2ZrP-XCmyCAhLdIJiPRUnnFEHm_cgDR_QYWHIU8p7wW3hoCsYQQAvD_BwE&language=EN&matchtype=b&portfolio=BrandTopic&priority=&product=Course&test=&topic=&utm_campaign=Branded-Topic_la.EN_cc.ROW&utm_content=deal4584&utm_medium=udemyads&utm_source=adwords&utm_term=_._ag_87321120668_._ad_636572503127_._kw_devops+udemy_._de_c_._dm__._pl__._ti_kwd-1270987772618_._li_9060948_._pd__._&couponCode=JUST4U02223">
+                                    <h3 class="fs-2 text-body-emphasis">DevOps and Automation</h3>
+                                    <p>Explore CI/CD, containerization, and tools like Kubernetes for efficient software delivery.</p>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 d-flex align-items-start">
+                                <div class="border rounded-4 p-4 shadow-sm">
+                                    <a href="https://www.coursera.org/professional-certificates/google-it-support">
+                                    <h3 class="fs-2 text-body-emphasis underline">IT Certifications</h3>
+                                    <p>Prepare for IT certifications like CompTIA, CCNA, and Google IT Support Professional Certificate.</p>
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div id="resources" class=" py-5 border-bottom bg-body-tertiary">
+                
+                <div class="container">
+                    <div class="row d-flex justify-content-center ">
+
+                        <div class="col-md-6 col-10 mb-5" id="custom-cards">
+                            <h2 class="pt-5 pb-2 display-5 fw-bold text-center mb-3">Resources</h2>
+                            <p class="text-center">Take your learning journey to the next level with these highly recommended tools and platforms. From coding practice to DevOps labs and certification preparation, these resources offer everything you need to succeed.</p>
+                        </div>
+                        <div class="row d-flex align-items-center justify-content-center gap-5 pb-5 ">
+                            <div class="col-sm-6 col-md-3 d-flex justify-content-center"><a href="https://www.freecodecamp.org/" target="_blank"><img src="./assets/FreeCodeCamp_logo.svg" alt="" width="200px"></a></div>
+                            <div class="col-sm-6 col-md-3 d-flex justify-content-center"><a href="https://aws.amazon.com/training/" target="_blank"><img src="./assets/aws.png" alt="" width="150px"></a></div>
+                            <div class="col-sm-6 col-md-3 d-flex justify-content-center"><a href="https://www.devopsinstitute.com/" target="_blank"><img src="./assets/Logo-DEVOPS-1280x316.png" alt="" width="200px"></a></div>
+                            <div class="col-sm-6 col-md-3 d-flex justify-content-center"><a href="https://www.simplilearn.com/" target="_blank"><img src="./assets/new_logo.svgz" alt="" width="200px"></a></div>
+                            <div class="col-sm-6 col-md-3 d-flex justify-content-center"><a href="https://www.coursera.org/" target="_blank"><img src="./assets/coursera.svg" alt="" width="200px"></a></div>
+                            <div class="col-sm-6 col-md-3 d-flex justify-content-center"><a href="https://www.pluralsight.com/" target="_blank"><img src="./assets//pluralsight-color-full-logo.png" alt="" width="200px"></a></div>
+
+
+                            <!-- <div class="row d-flex justify-content-center gap-5">
+
+                                <div class=" col-md-5 col-12 d-flex justify-content-center"><a href="https://www.simplilearn.com/" target="_blank"><img src="./assets/new_logo.svgz" alt="" width="200px"></a></div>
+                                <div class="col-md-5 col-12 d-flex justify-content-center"><a href="https://www.coursera.org/" target="_blank"><img src="./assets/coursera.svg" alt="" width="200px"></a></div> -->
+                            </div>
+                  
+                        </div>
+                    </div>
+                </div>
+                   
+                    
+                        
+                
+            </div>
+            
+        </div>
+        <!-- Categories Section -->
+        
+        
+        <!-- About Section -->
+        <div id="about" >
+
+            <div id="mission">      
+                <div class="border-bottom">
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                                <div class="flex justify-content-center align-items-center p-5 ">
+                                    <h2 class="pb-2 display-5 fw-bold mb-3">Mission</h2>
+                                    <p class="lead">To provide a centralized platform for aspiring and experienced tech professionals to master coding, DevOps, and IT certifications. Our mission is to deliver hands-on, practical learning experiences that prepare individuals for real-world challenges and foster continuous growth in the dynamic tech landscape.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-123 ">             
+                                <img src="./assets/Screenshot 2024-12-14 232414.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"  loading="lazy">  
+                            </div> 
+                        </div>
+                    </div>
+                </div>        
+            </div>
+            
+            <div id="contact" class="bg-body-tertiary">
+                <div class="container">
+                    <div class="text-center">
+                        <h2 class="pb-2 display-5 fw-bold text-center mb-3 pt-5">Contact Us</h2>    
+                        <div>
+                            <div class="row d-flex"> 
+                                <div class="col-lg-6 col-md-12 ">
+                                    <p class="lead"><span class="fw-bold">ACME Corporation</span><br>
+                                        1123 Fictional St, <br>
+                                        San Francisco, CA 94103
+                                    </p>  
+                                </div>
+                                <div class="col-lg-6 col-md-12 pb-5">
+                                    <p class="lead"> Contact No: +63 091 2345
+                                    <br> Email: ninjaLock@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- About Section -->
+
+        
+
+        
+
+            
+
+
+
+        <footer class="pt-3 text-body-secondary text-center text-small border-top">
+            <p class="mb-1">© 2024 NinjaLocks</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#"  class="text-decoration-none">Home</a></li>
+            </ul>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+    
+
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

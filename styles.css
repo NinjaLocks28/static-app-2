@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: rgb(83, 83, 83); */
+
+}
+
+
+#home {
+    /* background-color: rgb(182, 255, 243); */
+}
+
+#featured {
+
+   
+}
+
+#categories  a{
+    text-decoration: none;
+
+   
+    cursor: pointer;
+}
+
+#resources {
+
+
+}
+
+
+
+iframe {
+    height: 300px;
+    width: 100%;
+}
+
